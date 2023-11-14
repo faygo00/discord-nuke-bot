@@ -6,8 +6,7 @@ import platform
 purav = input("ENTER BOT'S TOKEN ():  ")
 ryuk = input("ENTER PREFIX ():  ")
 silent = ("nuked by ihma , jai shree ram" )
-client = commands.Bot(command_prefix= ryuk, # change prefix
-                      intents=discord.Intents.all())  # client
+client = commands.Bot(command_prefix= ryuk, intents=discord.Intents.all())  # client
 
 # let us add some more commands!
 
